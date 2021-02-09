@@ -17,8 +17,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.carros.domain.dto.CarroDTO;
-
 @RestController
 @RequestMapping("/api/v1/carros")
 public class CarrosController {

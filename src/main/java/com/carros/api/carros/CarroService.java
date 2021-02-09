@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.Assert;
 
 import com.carros.api.infra.exception.ObjectNotFoundException;
-import com.carros.domain.dto.CarroDTO;
 
 @Service
 public class CarroService {

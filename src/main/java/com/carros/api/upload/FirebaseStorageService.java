@@ -1,4 +1,4 @@
-package com.carros.domain.upload;
+package com.carros.api.upload;
 
 import org.springframework.stereotype.Service;
 
@@ -12,8 +12,6 @@ import javax.annotation.PostConstruct;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Base64;
-
-import com.carros.api.upload.UploadInput;
 
 @Service
 public class FirebaseStorageService {

@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.carros.domain.upload.FirebaseStorageService;
-
 @RestController
 @RequestMapping("/api/v1/upload")
 public class UploadController {

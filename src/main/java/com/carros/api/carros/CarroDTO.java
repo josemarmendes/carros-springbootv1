@@ -1,8 +1,6 @@
-package com.carros.domain.dto;
+package com.carros.api.carros;
 
 import org.modelmapper.ModelMapper;
-
-import com.carros.api.carros.Carro;
 
 import lombok.Data;
 
